@@ -1,0 +1,16 @@
+.controlImg{
+    position:relative;
+    overflow:hidden;
+    height:150px;
+    margin-bottom:10px;
+}
+    
+.controlImg img{
+    transition:all ease-in 500ms;
+    border:1px solid #fff;
+    background-position:center;
+}
+.controlImg img:hover{
+    transform:scale(1.3,1.3);
+    cursor:pointer;
+}	

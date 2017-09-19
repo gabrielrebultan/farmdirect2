@@ -1,0 +1,213 @@
+body {
+    background-attachment:fixed;    
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.dropdown-notifications {
+    width: 290px;
+    min-width: 0;
+    padding:5px;
+    left:-350%;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color:white;
+}
+
+.input-group-addon{
+    border-radius:25px;
+}
+
+.looking-for{
+    margin-top:15px;
+}
+
+
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:20px 0;
+    margin-bottom:20px;
+    color: #333;
+}
+
+/* SALE DETAILS */
+
+.product-header {
+    background-color: #28a745;
+    padding:20px;
+    margin-bottom:20px;
+    color: white;
+}
+.caption1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding:30px;
+    background-color: #28a745;
+    color:white;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.caption1:after {
+    position: absolute;
+    width:20px;
+    height:20px;
+    top:15px;
+    left:50px;
+    margin-left: -25px;
+    content: '';
+    transform: rotate(45deg);
+    margin-top:-25px;
+    background-color:#28a745;
+}
+
+/* END OF SALE DETAILS */
+
+/* BIDS */
+
+    .caption2 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding:10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        white-space: normal;
+        word-wrap: break-word;
+        margin-bottom:20px;
+    }
+
+    .highestbid {
+        padding:25px;
+        white-space: normal;
+        word-wrap: break-word;
+        background-color:#30c452;
+        box-shadow: 0px 5px 5px grey;
+        color:white;
+    }
+
+    .highest-bid-ribbon {
+        position:absolute;
+        background-color: gold;
+        color:#333;
+        padding:10px;
+        width:150px;
+        display: block;
+        margin-bottom:50px;
+        box-shadow: 5px 5px 5px grey;
+        content: 'Highest bid';
+        right:-10px;
+        text-align: center;
+        z-index: 2;
+        transform: rotate(40deg);
+    }
+
+    .otherbid {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color:white;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 5px gray;
+    }
+
+    .acceptedbid {
+        padding:20px 15px;
+        white-space: normal;
+        word-wrap: break-word;
+        background-color:#30c452;
+        color:white;
+        box-shadow: 0px 5px 5px gray;
+    }
+    .acceptedbid-header {
+        padding:20px 15px;
+        white-space: normal;
+        word-wrap: break-word;
+        background-color:#28a745;
+        color:white;
+    }
+
+/* END OF BIDS */
+
+    .caption3-header {
+        background-color: #5c8a8a;
+        padding:20px;
+        color: white;
+    }
+    .caption3 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding:20px;
+        background-color: #94b8b8;
+        color:white;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+    .caption3:after {
+        position: absolute;
+        width:20px;
+        height:20px;
+        top:15px;
+        left:50px;
+        margin-left: -25px;
+        content: '';
+        transform: rotate(45deg);
+        margin-top:-25px;
+        background-color:#94b8b8;
+    }
+
+    .caption222 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding:30px;
+        background-color: white;
+        color:#333;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-bottom:20px;
+    }
+    .caption222:after {
+        position: absolute;
+        width:20px;
+        height:20px;
+        top:15px;
+        left:50px;
+        margin-left: -25px;
+        content: '';
+        transform: rotate(45deg);
+        margin-top:-25px;
+        background-color:white;
+    }
+
+
+.car {
+    height:200px; 
+    border-top: 1px solid #222;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-bottom: none;
+}
+
+.nav-pills li.nav-item a.nav-link {
+    border-radius: 0;
+}
+
+.bg-white{
+    background-color:white;
+    padding:30px;
+}
+
+.profile {
+    background-color:white;
+    padding:30px;
+}
